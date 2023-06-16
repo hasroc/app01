@@ -1,0 +1,282 @@
+/* GENERAL  DOCUMENTS*/
+/*****************************************************/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+h1,h2,h3,h4
+{
+  color: #444;
+}
+
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+
+h2
+{
+    font-size: 55px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+h4
+{
+    font-size: 24px;
+}
+
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+
+.wrapper {
+    /* Centrer les elements */
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* ********************************************* */
+header h1 {
+    float:left;
+}
+header nav {
+    /* float: right;  ou bien */
+    margin-top: 20px;
+    position: absolute;
+    left: 70%;
+}
+
+header nav ul li {
+    float: left;
+    /* display: inline-block; */
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.clear {
+    clear:both;
+}
+
+a {
+    text-decoration: none; /* Enleve le bleu souligne sur les elements anchor*/
+    color: grey;
+}
+
+ul {
+    list-style: none; /* Enleve les points des listes*/
+}
+
+#main-image  {
+    height: 580px;
+    background: url('../images/main1.jpg')no-repeat center;
+    background-size: cover;
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+
+.button-1 {
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: orange;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 13px;
+    /* element <a> etant un element inline est transforme en block afin de le deplacer a loisir*/
+}
+
+
+.button-1:hover {
+    background: powderblue;
+}
+
+
+/* ****************************************************************** */
+/* Section steps */
+
+#steps ul {
+    margin: 80px 0;
+}
+
+#steps ul li {
+   width: 300px;
+   float:left;
+   /* ou bien */
+   padding-top: 140px; 
+   text-align: center;
+   margin-right:10px;
+}
+
+#steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p {
+    margin-bottom: 20px;
+}
+
+#step-1 {
+    background: url('../images/steps-icon-1.png') no-repeat top center;
+}
+
+#step-2 {
+    background: url('../images/steps-icon-2.png') no-repeat top center;
+}
+
+#step-3 {
+    background: url('../images/steps-icon-3.png') no-repeat top center;
+}
+
+/* ****************************************************************** */
+/* Section possibilities */
+
+#possibilities article {
+    float:left;
+    text-align:center;
+    background-repeat: no-repeat;
+   
+    border-radius: 15px; 
+}
+
+.overlay {
+    height:100%;
+    width:40%;
+    background-color: white;
+    padding:20px;
+}
+
+#main{
+    height:270px;width:420px;
+    margin-right: 20px;
+}
+
+#possibilities article:nth-child(2) {
+    height:270px;width: 420px;
+}
+
+.wrapper h4 {
+    font-weight: bold;
+    text-transform:uppercase;
+    background-position: 50%;
+
+}
+input[type="text"] { 
+    border:0px;
+    border-bottom:1px solid red;
+}
+
+.orange {
+    color:orange;
+}
+
+/* Gestion CONTACT */
+
+#contact {
+    text-align:center;
+    margin-top: 3%;
+}
+
+.wrapper h3 {
+    text-align:center;
+    text-shadow: 6px 7px 1px rgb(0, 195, 255);
+    
+}
+
+#contact div p {
+    text-align:justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 2%;
+}
+
+input {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Gestion du FOOTER */
+
+footer {
+    background-color: grey;
+}
+
+footer div.wrapper  {
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
